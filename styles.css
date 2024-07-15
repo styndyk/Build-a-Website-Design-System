@@ -15,6 +15,7 @@ body {
     margin: 0 10%;
 }
 
+
 /* Header Styles */
 
 header, main {
@@ -80,7 +81,7 @@ header, main {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    row-gap: 40px;
+    row-gap: 15px;
 }
 
 .fonts-content {
@@ -129,4 +130,29 @@ header, main {
 
 .bold {
     font-weight: 700;
+}
+
+/* Text Styles */
+
+.text-content h1 {
+    font-weight: 700;
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.text-content ul {
+    padding-left: 40px;
+}
+
+.text-content h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+}
+
+.text-content p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
 }
