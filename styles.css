@@ -21,22 +21,24 @@ header, main {
     margin: 25px 0;
 }
 
-/* Colors Styles */
+/* Section Styles */
 
-.colors {
+.section {
     margin: 10px auto;
     padding: 10px;
     border: 2px solid #a2a2a6;
 }
 
-.colors-title {
+.section-title {
     margin: 20px 0;
 }
+
+/* Colors Styles */
 
 .colors-container {
     width: 100%;
     display: flex;
-    gap: auto;
+    gap: 10px;
     flex-wrap: wrap;
     row-gap: 40px;
 }
@@ -71,4 +73,60 @@ header, main {
     background-color: #efd9ca;
 }
 
-/*  */
+
+/* Fonts Styles */
+
+.fonts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 40px;
+}
+
+.fonts-content {
+    width: 45%;
+}
+
+.fonts-content-title {
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 20px auto;
+    font-weight: normal;
+}
+
+.fonts-content-text {
+    margin: 15px auto;
+}
+
+/* Fonts SourceCodePro Styles */
+
+.sourceCodePro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Fonts NunitoSans Styles */
+
+.nunitoSans {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Fonts Poppins Styles */
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Fonts General Styles */
+
+.regular {
+    font-style: regular;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
